@@ -14,7 +14,7 @@ export const Testimonials: React.FC = () => {
               Stories from Our Learners
             </h2>
             <p className="text-base text-slate-600">
-              Ulasan nyata dari mahasiswa, fresh graduate, dan profesional yang bertransformasi dan membuka peluang karir baru bersama Skillora.
+              Ulasan nyata dari mahasiswa, fresh graduate, dan profesional yang bertransformasi dan membuka peluang karir baru bersama Quoriva.
             </p>
           </div>
 

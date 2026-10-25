@@ -73,7 +73,7 @@ export const LoginModal: React.FC<LoginModalProps> = ({
           >
             <X className="w-5 h-5" />
           </button>
-          <h3 className="text-xl font-extrabold text-white">Masuk ke Skillora</h3>
+          <h3 className="text-xl font-extrabold text-white">Masuk ke Quoriva</h3>
           <p className="text-xs text-slate-300 mt-1">
             Lanjutkan progres belajar kursus dan portofolio Anda.
           </p>

@@ -35,7 +35,7 @@ export const FinalCta: React.FC<FinalCtaProps> = ({ onStartLearning }) => {
               </h2>
 
               <p className="text-slate-300 text-base sm:text-lg max-w-xl leading-relaxed">
-                Bergabunglah bersama ribuan talenta digital lainnya yang telah membuktikan peningkatan karir nyata bersama Skillora. Pelajari keahlian bernilai tinggi hari ini dengan jaminan bimbingan mentor.
+                Bergabunglah bersama ribuan talenta digital lainnya yang telah membuktikan peningkatan karir nyata bersama Quoriva. Pelajari keahlian bernilai tinggi hari ini dengan jaminan bimbingan mentor.
               </p>
 
               {/* Action Buttons & Note */}
@@ -79,7 +79,7 @@ export const FinalCta: React.FC<FinalCtaProps> = ({ onStartLearning }) => {
                       <Award className="w-5 h-5" />
                     </div>
                     <div>
-                      <h4 className="text-xs font-bold text-white uppercase tracking-wider">Skillora Digital Passport</h4>
+                      <h4 className="text-xs font-bold text-white uppercase tracking-wider">Quoriva Digital Passport</h4>
                       <p className="text-[10px] text-slate-300">Verified Certificate & Portfolio</p>
                     </div>
                   </div>

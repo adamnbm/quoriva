@@ -40,7 +40,7 @@ export const PolicyModal: React.FC<PolicyModalProps> = ({ type, onClose }) => {
               <FileText className="w-5 h-5 text-brand-400" />
             )}
             <h3 className="text-lg font-bold text-white">
-              {type === 'privacy' ? 'Kebijakan Privasi Skillora' : 'Syarat & Ketentuan Layanan'}
+              {type === 'privacy' ? 'Kebijakan Privasi Quoriva' : 'Syarat & Ketentuan Layanan'}
             </h3>
           </div>
           <button
@@ -56,7 +56,7 @@ export const PolicyModal: React.FC<PolicyModalProps> = ({ type, onClose }) => {
           {type === 'privacy' ? (
             <>
               <p>
-                <strong>1. Pendahuluan:</strong> Skillora menghargai privasi setiap pengguna, mahasiswa, dan pengunjung platform kami. Dokumen ini menjelaskan bagaimana data dan informasi demonstrasi Anda dikelola.
+                <strong>1. Pendahuluan:</strong> Quoriva menghargai privasi setiap pengguna, mahasiswa, dan pengunjung platform kami. Dokumen ini menjelaskan bagaimana data dan informasi demonstrasi Anda dikelola.
               </p>
               <p>
                 <strong>2. Pengumpulan Informasi:</strong> Informasi yang Anda masukkan dalam formulir pendaftaran (nama lengkap, alamat email, nomor WhatsApp) digunakan semata-mata untuk simulasi pendaftaran kelas dan pengiriman materi belajar demonstrasi.
@@ -71,7 +71,7 @@ export const PolicyModal: React.FC<PolicyModalProps> = ({ type, onClose }) => {
           ) : (
             <>
               <p>
-                <strong>1. Akses Materi Kursus:</strong> Seluruh materi kursus, video, silabus, dan file latihan di Skillora adalah hak cipta dan ditujukan untuk pengembangan keterampilan pribadi peserta.
+                <strong>1. Akses Materi Kursus:</strong> Seluruh materi kursus, video, silabus, dan file latihan di Quoriva adalah hak cipta dan ditujukan untuk pengembangan keterampilan pribadi peserta.
               </p>
               <p>
                 <strong>2. Sertifikasi & Kelulusan:</strong> Sertifikat resmi diberikan kepada peserta yang telah menuntaskan modul serta mengumpulkan capstone project yang lolos review mentor.

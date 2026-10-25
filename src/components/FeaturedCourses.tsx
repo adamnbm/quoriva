@@ -101,9 +101,9 @@ export const FeaturedCourses: React.FC<FeaturedCoursesProps> = ({
                 <div className="w-1.5 h-1.5 rounded-full bg-amber-400" />
                 <div className="w-1.5 h-1.5 rounded-full bg-emerald-400" />
               </div>
-              <p className="text-brand-300 font-semibold">{`<SkilloraApp>`}</p>
+              <p className="text-brand-300 font-semibold">{`<QuorivaApp>`}</p>
               <p className="pl-2 text-emerald-400">const [ready] = true;</p>
-              <p className="text-brand-300 font-semibold">{`</SkilloraApp>`}</p>
+              <p className="text-brand-300 font-semibold">{`</QuorivaApp>`}</p>
             </div>
             <div className="absolute bottom-2 right-3 flex items-center gap-1 text-[11px] font-mono text-indigo-200 bg-indigo-950/80 px-2 py-0.5 rounded border border-indigo-500/30">
               <Code2 className="w-3 h-3 text-brand-400" />

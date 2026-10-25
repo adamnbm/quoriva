@@ -120,7 +120,7 @@ export const RegistrationModal: React.FC<RegistrationModalProps> = ({
 
   const getSelectedCourseTitle = (id: string) => {
     const c = COURSES_DATA.find(item => item.id === id);
-    return c ? c.title : 'Kursus Skillora';
+    return c ? c.title : 'Kursus Quoriva';
   };
 
   return (
@@ -145,7 +145,7 @@ export const RegistrationModal: React.FC<RegistrationModalProps> = ({
 
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-brand-500/20 text-brand-300 text-xs font-semibold mb-2 border border-brand-400/30">
             <Sparkles className="w-3.5 h-3.5 text-amber-300" />
-            <span>Pendaftaran Kursus Skillora</span>
+            <span>Pendaftaran Kursus Quoriva</span>
           </div>
 
           <h3 className="text-xl sm:text-2xl font-extrabold text-white">
@@ -384,7 +384,7 @@ export const RegistrationModal: React.FC<RegistrationModalProps> = ({
                     >
                       Kebijakan Privasi
                     </button>{' '}
-                    dan bersedia menerima materi belajar demonstrasi dari Skillora.
+                    dan bersedia menerima materi belajar demonstrasi dari Quoriva.
                   </span>
                 </label>
                 {errors.agreeTerms && (

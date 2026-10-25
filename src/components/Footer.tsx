@@ -32,7 +32,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenPrivacy, onOpenTerms }) =>
               </div>
               <div className="flex items-center gap-2">
                 <span className="text-xl font-extrabold tracking-tight text-white">
-                  Skillora
+                  Quoriva
                 </span>
                 <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-slate-800 text-brand-400 border border-slate-700">
                   Platform
@@ -48,7 +48,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenPrivacy, onOpenTerms }) =>
             <div className="space-y-2 pt-2 text-xs text-slate-400">
               <div className="flex items-center gap-2.5">
                 <Mail className="w-4 h-4 text-brand-400" />
-                <span>halo@skillora.id</span>
+                <span>halo@quoriva.id</span>
               </div>
               <div className="flex items-center gap-2.5">
                 <Phone className="w-4 h-4 text-brand-400" />
@@ -152,7 +152,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenPrivacy, onOpenTerms }) =>
             <ul className="space-y-2 text-xs text-slate-400">
               <li>
                 <a href="#why-us" className="hover:text-brand-400 transition-colors">
-                  Mengapa Skillora
+                  Mengapa Quoriva
                 </a>
               </li>
               <li>
@@ -224,7 +224,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenPrivacy, onOpenTerms }) =>
 
         {/* Bottom Bar: Copyright & Back to Top */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
-          <p>© 2026 Skillora. Seluruh hak cipta dilindungi undang-undang.</p>
+          <p>© 2026 Quoriva. Seluruh hak cipta dilindungi undang-undang.</p>
           <div className="flex items-center gap-4">
             <span className="text-[11px] text-slate-500">
               Dikembangkan untuk Pembelajaran Digital Masa Kini

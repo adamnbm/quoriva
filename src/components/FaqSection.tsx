@@ -90,7 +90,7 @@ export const FaqSection: React.FC<FaqSectionProps> = ({ onOpenRegister }) => {
                 Masih memiliki pertanyaan seputar kursus?
               </h4>
               <p className="text-xs text-slate-500">
-                Tim admission Skillora siap membantu Anda memilih learning path yang tepat.
+                Tim admission Quoriva siap membantu Anda memilih learning path yang tepat.
               </p>
             </div>
           </div>

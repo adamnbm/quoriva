@@ -276,7 +276,7 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
     company: 'Tech Corp Indonesia',
     avatar: 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&auto=format&fit=crop&q=80',
     rating: 5,
-    quote: 'Sebelumnya saya kuliah di jurusan akuntansi dan merasa ragu untuk beralih ke bidang UI/UX. Berkat kurikulum berbasis proyek di Skillora dan review mentor yang detail, saya berhasil merapikan portofolio Figma saya dan diterima kerja hanya dalam 2 bulan setelah kelulusan.',
+    quote: 'Sebelumnya saya kuliah di jurusan akuntansi dan merasa ragu untuk beralih ke bidang UI/UX. Berkat kurikulum berbasis proyek di Quoriva dan review mentor yang detail, saya berhasil merapikan portofolio Figma saya dan diterima kerja hanya dalam 2 bulan setelah kelulusan.',
     courseTaken: 'UI/UX Design Fundamentals',
     badge: 'Alumni 2025 • Karir Baru'
   },
@@ -287,7 +287,7 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
     company: 'FinTech Nusantara',
     avatar: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&auto=format&fit=crop&q=80',
     rating: 5,
-    quote: 'Excel dan SQL awalnya terasa sangat rumit. Skillora mengajarkannya dengan simulasi kasus bisnis riil yang relevan—mulai dari menghitung customer churn hingga e-commerce cohort. Materinya praktis dan langsung terpakai di pekerjaan saya sehari-hari!',
+    quote: 'Excel dan SQL awalnya terasa sangat rumit. Quoriva mengajarkannya dengan simulasi kasus bisnis riil yang relevan—mulai dari menghitung customer churn hingga e-commerce cohort. Materinya praktis dan langsung terpakai di pekerjaan saya sehari-hari!',
     courseTaken: 'Data Analytics with Excel & SQL',
     badge: 'Alumni 2025 • Fresh Graduate'
   },
@@ -358,20 +358,20 @@ export const FEATURES_DATA: FeatureItem[] = [
 export const FAQS_DATA: FaqItem[] = [
   {
     id: 'faq-1',
-    question: 'Apakah kursus di Skillora cocok untuk pemula tanpa latar belakang IT atau desain?',
+    question: 'Apakah kursus di Quoriva cocok untuk pemula tanpa latar belakang IT atau desain?',
     answer: 'Ya, seluruh kursus dengan tanda "Beginner" dirancang khusus untuk pemula yang memulai dari nol. Kami menyusun materi secara bertahap dari pemahaman konsep dasar, pengenalan tools, hingga praktik langkah demi langkah dengan pendampingan mentor.',
     category: 'Persiapan & Level'
   },
   {
     id: 'faq-2',
     question: 'Apakah saya bisa belajar melalui perangkat mobile atau tablet?',
-    answer: 'Tentu saja! Platform Skillora dioptimalkan untuk berbagai perangkat mulai dari desktop, laptop, tablet, hingga smartphone. Anda dapat mengakses materi video, membaca rangkuman pelajaran, dan memantau kemajuan belajar kapan pun dan di mana pun.',
+    answer: 'Tentu saja! Platform Quoriva dioptimalkan untuk berbagai perangkat mulai dari desktop, laptop, tablet, hingga smartphone. Anda dapat mengakses materi video, membaca rangkuman pelajaran, dan memantau kemajuan belajar kapan pun dan di mana pun.',
     category: 'Akses Platform'
   },
   {
     id: 'faq-3',
     question: 'Apakah kursus ini memiliki proyek praktik nyata?',
-    answer: 'Ya, seluruh kursus di Skillora menerapkan metode Project-Based Learning. Anda tidak hanya mendengarkan teori, melainkan langsung mengerjakan studi kasus riil (seperti membuat prototipe Figma, query database SQL, kode aplikasi React, atau kampanye Meta Ads) yang nantinya dinilai oleh mentor.',
+    answer: 'Ya, seluruh kursus di Quoriva menerapkan metode Project-Based Learning. Anda tidak hanya mendengarkan teori, melainkan langsung mengerjakan studi kasus riil (seperti membuat prototipe Figma, query database SQL, kode aplikasi React, atau kampanye Meta Ads) yang nantinya dinilai oleh mentor.',
     category: 'Metode Belajar'
   },
   {
@@ -382,14 +382,14 @@ export const FAQS_DATA: FaqItem[] = [
   },
   {
     id: 'faq-5',
-    question: 'Bagaimana cara mendaftar kursus di Skillora?',
-    answer: 'Sangat mudah! Klik tombol "Get Started" di bagian atas halaman atau pilih "View Course" pada kursus yang Anda minati, lalu klik tombol daftar. Lengkapi nama, email, dan nomor WhatsApp Anda pada formulir pendaftaran. Tim Skillora akan segera mengirimkan konfirmasi serta akses belajar.',
+    question: 'Bagaimana cara mendaftar kursus di Quoriva?',
+    answer: 'Sangat mudah! Klik tombol "Get Started" di bagian atas halaman atau pilih "View Course" pada kursus yang Anda minati, lalu klik tombol daftar. Lengkapi nama, email, dan nomor WhatsApp Anda pada formulir pendaftaran. Tim Quoriva akan segera mengirimkan konfirmasi serta akses belajar.',
     category: 'Pendaftaran'
   },
   {
     id: 'faq-6',
     question: 'Berapa biaya kursus dan apakah ada opsi cicilan atau jaminan uang kembali?',
-    answer: 'Biaya kursus Skillora sangat terjangkau mulai dari Rp 399.000 dengan akses seumur hidup (lifetime access) dan pembaruan materi berkala. Kami juga menyediakan opsi pembayaran fleksibel serta jaminan kepuasan belajar 7 hari.',
+    answer: 'Biaya kursus Quoriva sangat terjangkau mulai dari Rp 399.000 dengan akses seumur hidup (lifetime access) dan pembaruan materi berkala. Kami juga menyediakan opsi pembayaran fleksibel serta jaminan kepuasan belajar 7 hari.',
     category: 'Biaya & Garansi'
   }
 ];
