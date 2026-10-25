@@ -7,9 +7,7 @@ import {
   BookOpen,
   CheckCircle2,
   AlertCircle,
-  Loader2,
-  Sparkles,
-  Info
+  Loader2
 } from 'lucide-react';
 import { COURSES_DATA } from '../data/mockData';
 import type { RegistrationFormData } from '../types';
