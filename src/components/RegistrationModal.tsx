@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import { 
-  X, 
-  User, 
-  Mail, 
-  Phone, 
-  BookOpen, 
-  CheckCircle2, 
-  AlertCircle, 
-  Loader2, 
+import {
+  X,
+  User,
+  Mail,
+  Phone,
+  BookOpen,
+  CheckCircle2,
+  AlertCircle,
+  Loader2,
   Sparkles,
   Info
 } from 'lucide-react';
@@ -143,10 +143,7 @@ export const RegistrationModal: React.FC<RegistrationModalProps> = ({
             <X className="w-5 h-5" />
           </button>
 
-          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-brand-500/20 text-brand-300 text-xs font-semibold mb-2 border border-brand-400/30">
-            <Sparkles className="w-3.5 h-3.5 text-amber-300" />
-            <span>Pendaftaran Kursus Quoriva</span>
-          </div>
+
 
           <h3 className="text-xl sm:text-2xl font-extrabold text-white">
             {isSuccess ? 'Pendaftaran Berhasil! 🎉' : 'Mulai Karir Digital Anda'}
@@ -160,14 +157,9 @@ export const RegistrationModal: React.FC<RegistrationModalProps> = ({
 
         {/* Modal Body */}
         <div className="p-6 sm:p-7 overflow-y-auto flex-1">
-          
+
           {/* Prototype Simulation Notice */}
-          <div className="mb-6 p-3.5 rounded-xl bg-amber-50 border border-amber-200/80 flex items-start gap-2.5 text-xs text-amber-800">
-            <Info className="w-4 h-4 text-amber-600 flex-shrink-0 mt-0.5" />
-            <p className="leading-relaxed">
-              <strong className="font-semibold">Simulasi Lingkungan Lokal:</strong> Formulir ini berjalan pada lingkungan frontend untuk kebutuhan demonstrasi prototipe. Data belum tersimpan secara permanen ke database server.
-            </p>
-          </div>
+
 
           {isSuccess && submittedData ? (
             /* Success View */
@@ -224,7 +216,7 @@ export const RegistrationModal: React.FC<RegistrationModalProps> = ({
           ) : (
             /* Form View */
             <form onSubmit={handleSubmit} className="space-y-4" noValidate>
-              
+
               {/* Field: Full Name */}
               <div>
                 <label className="block text-xs font-bold text-slate-700 mb-1.5">
@@ -242,11 +234,10 @@ export const RegistrationModal: React.FC<RegistrationModalProps> = ({
                       if (errors.fullName) setErrors({ ...errors, fullName: '' });
                     }}
                     placeholder="Contoh: Rian Pratama"
-                    className={`w-full pl-10 pr-4 py-2.5 rounded-xl text-xs sm:text-sm border transition-all focus:outline-none focus:ring-2 ${
-                      errors.fullName
-                        ? 'border-rose-400 bg-rose-50/30 focus:ring-rose-200'
-                        : 'border-slate-300 focus:border-brand-500 focus:ring-brand-500/20'
-                    }`}
+                    className={`w-full pl-10 pr-4 py-2.5 rounded-xl text-xs sm:text-sm border transition-all focus:outline-none focus:ring-2 ${errors.fullName
+                      ? 'border-rose-400 bg-rose-50/30 focus:ring-rose-200'
+                      : 'border-slate-300 focus:border-brand-500 focus:ring-brand-500/20'
+                      }`}
                   />
                 </div>
                 {errors.fullName && (
@@ -274,11 +265,10 @@ export const RegistrationModal: React.FC<RegistrationModalProps> = ({
                       if (errors.email) setErrors({ ...errors, email: '' });
                     }}
                     placeholder="nama@email.com"
-                    className={`w-full pl-10 pr-4 py-2.5 rounded-xl text-xs sm:text-sm border transition-all focus:outline-none focus:ring-2 ${
-                      errors.email
-                        ? 'border-rose-400 bg-rose-50/30 focus:ring-rose-200'
-                        : 'border-slate-300 focus:border-brand-500 focus:ring-brand-500/20'
-                    }`}
+                    className={`w-full pl-10 pr-4 py-2.5 rounded-xl text-xs sm:text-sm border transition-all focus:outline-none focus:ring-2 ${errors.email
+                      ? 'border-rose-400 bg-rose-50/30 focus:ring-rose-200'
+                      : 'border-slate-300 focus:border-brand-500 focus:ring-brand-500/20'
+                      }`}
                   />
                 </div>
                 {errors.email && (
@@ -304,11 +294,10 @@ export const RegistrationModal: React.FC<RegistrationModalProps> = ({
                       setFormData({ ...formData, courseId: e.target.value });
                       if (errors.courseId) setErrors({ ...errors, courseId: '' });
                     }}
-                    className={`w-full pl-10 pr-4 py-2.5 rounded-xl text-xs sm:text-sm border bg-white appearance-none transition-all focus:outline-none focus:ring-2 ${
-                      errors.courseId
-                        ? 'border-rose-400 bg-rose-50/30 focus:ring-rose-200'
-                        : 'border-slate-300 focus:border-brand-500 focus:ring-brand-500/20'
-                    }`}
+                    className={`w-full pl-10 pr-4 py-2.5 rounded-xl text-xs sm:text-sm border bg-white appearance-none transition-all focus:outline-none focus:ring-2 ${errors.courseId
+                      ? 'border-rose-400 bg-rose-50/30 focus:ring-rose-200'
+                      : 'border-slate-300 focus:border-brand-500 focus:ring-brand-500/20'
+                      }`}
                   >
                     {COURSES_DATA.map((c) => (
                       <option key={c.id} value={c.id}>
@@ -345,11 +334,10 @@ export const RegistrationModal: React.FC<RegistrationModalProps> = ({
                       if (errors.phone) setErrors({ ...errors, phone: '' });
                     }}
                     placeholder="08xxxxxxxxxx"
-                    className={`w-full pl-10 pr-4 py-2.5 rounded-xl text-xs sm:text-sm border transition-all focus:outline-none focus:ring-2 ${
-                      errors.phone
-                        ? 'border-rose-400 bg-rose-50/30 focus:ring-rose-200'
-                        : 'border-slate-300 focus:border-brand-500 focus:ring-brand-500/20'
-                    }`}
+                    className={`w-full pl-10 pr-4 py-2.5 rounded-xl text-xs sm:text-sm border transition-all focus:outline-none focus:ring-2 ${errors.phone
+                      ? 'border-rose-400 bg-rose-50/30 focus:ring-rose-200'
+                      : 'border-slate-300 focus:border-brand-500 focus:ring-brand-500/20'
+                      }`}
                   />
                 </div>
                 {errors.phone && (

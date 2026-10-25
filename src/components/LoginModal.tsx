@@ -86,7 +86,7 @@ export const LoginModal: React.FC<LoginModalProps> = ({
               <div className="w-14 h-14 rounded-full bg-emerald-100 text-emerald-600 mx-auto flex items-center justify-center">
                 <CheckCircle2 className="w-8 h-8" />
               </div>
-              <h4 className="text-base font-bold text-navy-900">Login Simulasi Berhasil!</h4>
+              <h4 className="text-base font-bold text-navy-900">Login Berhasil!</h4>
               <p className="text-xs text-slate-500">
                 Mengarahkan ke dashboard prototipe belajar...
               </p>
@@ -179,7 +179,7 @@ export const LoginModal: React.FC<LoginModalProps> = ({
                   }}
                   className="font-bold text-brand-600 hover:underline"
                 >
-                  Daftar Kursus Sekarang
+                  Buat Akun Baru
                 </button>
               </div>
             </form>

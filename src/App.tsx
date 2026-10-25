@@ -12,6 +12,7 @@ import { Footer } from './components/Footer';
 import { CourseDetailModal } from './components/CourseDetailModal';
 import { RegistrationModal } from './components/RegistrationModal';
 import { LoginModal } from './components/LoginModal';
+import { RegisterAccountModal } from './components/RegisterAccountModal';
 import { PolicyModal } from './components/PolicyModal';
 import type { Course } from './types';
 import './App.css';
@@ -22,6 +23,7 @@ export function App() {
   const [isRegisterOpen, setIsRegisterOpen] = useState(false);
   const [preselectedCourseId, setPreselectedCourseId] = useState<string>('course-uiux');
   const [isLoginOpen, setIsLoginOpen] = useState(false);
+  const [isRegisterAccountOpen, setIsRegisterAccountOpen] = useState(false);
   const [policyType, setPolicyType] = useState<'privacy' | 'terms' | null>(null);
 
   // Handlers
@@ -125,7 +127,16 @@ export function App() {
         onClose={() => setIsLoginOpen(false)}
         onSwitchToRegister={() => {
           setIsLoginOpen(false);
-          setIsRegisterOpen(true);
+          setIsRegisterAccountOpen(true);
+        }}
+      />
+
+      <RegisterAccountModal
+        isOpen={isRegisterAccountOpen}
+        onClose={() => setIsRegisterAccountOpen(false)}
+        onSwitchToLogin={() => {
+          setIsRegisterAccountOpen(false);
+          setIsLoginOpen(true);
         }}
       />
 
@@ -138,3 +149,4 @@ export function App() {
 }
 
 export default App;
+

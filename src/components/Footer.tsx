@@ -1,9 +1,9 @@
 import React from 'react';
-import { 
-  BookOpen, 
-  Mail, 
-  Phone, 
-  MapPin, 
+import {
+  BookOpen,
+  Mail,
+  Phone,
+  MapPin,
   ArrowUp
 } from 'lucide-react';
 
@@ -20,10 +20,10 @@ export const Footer: React.FC<FooterProps> = ({ onOpenPrivacy, onOpenTerms }) =>
   return (
     <footer className="bg-slate-900 text-slate-300 pt-16 pb-12 border-t border-slate-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* Main Footer Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12 border-b border-slate-800">
-          
+
           {/* Col 1 & 2: Brand Info */}
           <div className="lg:col-span-2 space-y-4">
             <div className="flex items-center gap-2.5">
@@ -34,9 +34,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenPrivacy, onOpenTerms }) =>
                 <span className="text-xl font-extrabold tracking-tight text-white">
                   Quoriva
                 </span>
-                <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-slate-800 text-brand-400 border border-slate-700">
-                  Platform
-                </span>
+
               </div>
             </div>
 
@@ -212,11 +210,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenPrivacy, onOpenTerms }) =>
                   Jaminan Mutu Kursus
                 </a>
               </li>
-              <li>
-                <span className="inline-block mt-2 text-[10px] bg-slate-800 text-brand-300 px-2 py-1 rounded border border-slate-700">
-                  Lingkungan Lokal (Prototype)
-                </span>
-              </li>
+
             </ul>
           </div>
 
