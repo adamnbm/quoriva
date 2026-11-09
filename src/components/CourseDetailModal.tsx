@@ -223,7 +223,10 @@ export const CourseDetailModal: React.FC<CourseDetailModalProps> = ({
             <div className="p-4 rounded-2xl bg-slate-50 border border-slate-200 flex items-center gap-3.5">
               <img
                 src={course.instructor.avatar}
-                alt={course.instructor.name}
+                alt={`Foto Instruktur ${course.instructor.name}`}
+                width={48}
+                height={48}
+                loading="lazy"
                 className="w-12 h-12 rounded-full object-cover border-2 border-white shadow-xs"
               />
               <div className="text-xs">

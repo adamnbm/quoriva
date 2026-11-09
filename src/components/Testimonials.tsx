@@ -63,7 +63,10 @@ export const Testimonials: React.FC = () => {
               <div className="pt-5 border-t border-slate-100 flex items-center gap-3.5">
                 <img
                   src={item.avatar}
-                  alt={item.name}
+                  alt={`Foto ${item.name}`}
+                  width={44}
+                  height={44}
+                  loading="lazy"
                   className="w-11 h-11 rounded-full object-cover border-2 border-slate-100 shadow-xs"
                 />
                 <div className="text-xs">

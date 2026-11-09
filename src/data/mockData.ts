@@ -52,7 +52,7 @@ export const COURSES_DATA: Course[] = [
       name: 'Aditya Ramadhan',
       role: 'Principal Product Designer',
       company: 'Ex-Unicorn Tech',
-      avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80'
+      avatar: '/images/avatars/aditya.webp'
     },
     sampleProject: 'Aplikasi FinTech Mobile: Redesign Onboarding & Transfer Flow'
   },
@@ -107,7 +107,7 @@ export const COURSES_DATA: Course[] = [
       name: 'Rendra Wicaksono',
       role: 'Lead Data Analytics Specialist',
       company: 'Southeast Asia FinTech',
-      avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80'
+      avatar: '/images/avatars/rendra.webp'
     },
     sampleProject: 'Analisis Penjualan E-Commerce Multi-Channel & Dashboard Retensi Pelanggan'
   },
@@ -162,7 +162,7 @@ export const COURSES_DATA: Course[] = [
       name: 'Bima Satria',
       role: 'Staff Frontend Engineer',
       company: 'Global SaaS Co.',
-      avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80'
+      avatar: '/images/avatars/bima.webp'
     },
     sampleProject: 'SaaS Platform Management Dashboard Lengkap dengan Autentikasi & Data Visual'
   },
@@ -217,7 +217,7 @@ export const COURSES_DATA: Course[] = [
       name: 'Siti Sarah',
       role: 'Head of Growth Marketing',
       company: 'D2C Brand Agency',
-      avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80'
+      avatar: '/images/avatars/siti.webp'
     },
     sampleProject: 'Kampanye Peluncuran Produk: Full Funnel Strategy dari Top-of-Funnel hingga Retargeting'
   }
@@ -274,7 +274,7 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
     name: 'Rian Pratama',
     role: 'Junior UI/UX Designer',
     company: 'Tech Corp Indonesia',
-    avatar: 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&auto=format&fit=crop&q=80',
+    avatar: '/images/avatars/rian.webp',
     rating: 5,
     quote: 'Sebelumnya saya kuliah di jurusan akuntansi dan merasa ragu untuk beralih ke bidang UI/UX. Berkat kurikulum berbasis proyek di Quoriva dan review mentor yang detail, saya berhasil merapikan portofolio Figma saya dan diterima kerja hanya dalam 2 bulan setelah kelulusan.',
     courseTaken: 'UI/UX Design Fundamentals',
@@ -285,7 +285,7 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
     name: 'Nadia Safarina',
     role: 'Data Analyst',
     company: 'FinTech Nusantara',
-    avatar: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&auto=format&fit=crop&q=80',
+    avatar: '/images/avatars/nadia.webp',
     rating: 5,
     quote: 'Excel dan SQL awalnya terasa sangat rumit. Quoriva mengajarkannya dengan simulasi kasus bisnis riil yang relevan—mulai dari menghitung customer churn hingga e-commerce cohort. Materinya praktis dan langsung terpakai di pekerjaan saya sehari-hari!',
     courseTaken: 'Data Analytics with Excel & SQL',
@@ -296,7 +296,7 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
     name: 'Kevin Adiwijaya',
     role: 'Frontend Developer',
     company: 'ScaleUp Studio',
-    avatar: 'https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=150&auto=format&fit=crop&q=80',
+    avatar: '/images/avatars/kevin.webp',
     rating: 5,
     quote: 'Proyek capstone Full-Stack Web Development sangat solid. Saya diajarkan membangun aplikasi lengkap dengan React, TypeScript, dan Tailwind CSS. Interviewer tech test saya terkesan karena kode saya tersusun rapi dengan best practices modern.',
     courseTaken: 'Full-Stack Web Development',
